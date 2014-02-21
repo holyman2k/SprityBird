@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F54803018B75B1D0066DFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0A418A6F53400FEBE9B /* Main.storyboard */; };
 		821A755618AD616C00B376D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0A218A6F53400FEBE9B /* AppDelegate.m */; };
 		821A755718AD617800B376D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0A818A6F53400FEBE9B /* ViewController.m */; };
 		821A755818AD617800B376D5 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0C818A6FF4200FEBE9B /* Scene.m */; };
@@ -129,6 +130,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F54802F18B75AE00066DFED /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		8274FC3318A7F14000FEBCE7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +204,7 @@
 			children = (
 				82C6A0D218A790BA00FEBE9B /* Classes */,
 				82C6A0D918A7913200FEBE9B /* Resources */,
+				6F54802F18B75AE00066DFED /* iPad */,
 				82C6A09918A6F53400FEBE9B /* Supporting Files */,
 			);
 			path = spritybird;
@@ -372,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F54803018B75B1D0066DFED /* Main.storyboard in Resources */,
 				82457DBC18B2C3490042CF82 /* bird_2@2x.png in Resources */,
 				823C184D18B3F1BB00C9BD2F /* medal_silver@2x.png in Resources */,
 				821A756818AD618A00B376D5 /* Images.xcassets in Resources */,
@@ -547,7 +557,7 @@
 				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = spritybird;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -563,7 +573,7 @@
 				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = spritybird;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
